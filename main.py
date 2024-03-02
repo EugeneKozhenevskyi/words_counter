@@ -4,6 +4,8 @@ def count_words_in_file():
 
     words = content.split()
 
+    file.close()
+
     return len(words)
 
 
